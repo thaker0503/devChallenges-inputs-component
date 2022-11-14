@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devChallenges | Frontend - 2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inputs</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="input-wrapper">
+                <pre class="helping-text">&lt;Input /&gt;</pre>
+                <label>Label</label>
+                <input type="text" class="default"  placeholder="Placeholder" />
+            </div>
+            <div class="input-wrapper">
+                <pre class="helping-text">&:hover</pre>
+                <label>Label</label>
+                <input type="text" class="default-hover"  placeholder="Placeholder" />
+            </div>
+            <div class="input-wrapper">
+                <pre class="helping-text">&:focus</pre>
+                <label class="label-focus">Label</label>
+                <input type="text" class="default-focus"  placeholder="Placeholder" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-wrapper">
+                <pre class="helping-text">&lt;Input error /&gt;</pre>
+                <label class="label-error">Label</label>
+                <input type="text" class="error"  placeholder="Placeholder" />
+            </div>
+            <div class="input-wrapper">
+                <pre class="helping-text">&:hover</pre>
+                <label>Label</label>
+                <input type="text" class="error-hover"  placeholder="Placeholder" />
+            </div>
+            <div class="input-wrapper">
+                <pre class="helping-text">&:focus</pre>
+                <label class="label-error">Label</label>
+                <input type="text" class="error-focus"  placeholder="Placeholder" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-wrapper">
+                <pre class="helping-text">&lt;Input disabled /&gt;</pre>
+                <label>Label</label>
+                <input type="text" class="disabled" placeholder="Placeholder" />
+            </div>
+        </div>
+        <div class="row" style="height: 120px;">
+            <div class="input-wrapper" style="width: 400px;">
+                <pre class="helping-text">&lt;Input helperText=”Some interesting text” /&gt;</pre>
+                <label>Label</label>
+                <input type="text" class="default" placeholder="Placeholder" />
+                <span class="interesing-text">some interesting text</span>
+            </div>
+            <div class="input-wrapper" style="width: 400px;">
+                <pre class="helping-text">&lt;Input helperText=”Some interesting text” error /&gt;</pre>
+                <label class="label-error">Label</label>
+                <input type="text" class="error" placeholder="Placeholder" />
+                <span class="interesing-text error-text">some interesting text</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-wrapper" style="width: 400px;">
+                <pre class="helping-text">&lt;Input startIcon /&gt;</pre>
+                <label>Label</label>
+                <span class="parent">
+                    <input type="text" class="default-icon" placeholder="Placeholder" />
+                    <span class="material-icons material-symbols-outlined call-icon">
+                        call
+                    </span>
+                </span>
+            </div>
+            <div class="input-wrapper" style="width: 400px;">
+                <pre class="helping-text">&lt;Input endIcon /&gt;</pre>
+                <label>Label</label>
+                <span class="parent">
+                    <input type="text" class="default-icon2" placeholder="Placeholder" />
+                    <span class="material-icons material-symbols-outlined lock-icon">
+                        lock
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+    </main>
+</body>
+</html>
